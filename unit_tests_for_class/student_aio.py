@@ -35,7 +35,7 @@ class Student:
         self.gpa = gpa
 
     def __str__(self):
-        return self.last_name + ", " + self.first_name + " has major " + self.major + " with gpa: " + str(self.gpa)
+        return self.last_name + ", " + self.first_name + " has major: " + self.major + " with gpa: " + str(self.gpa)
 
 
 
@@ -75,8 +75,8 @@ class StudentTests(unittest.TestCase):
 
     def test_student_str(self):
         # Test the string representation of the Student class
-        self.assertEqual(str(self.student1), 'Appleseed, John has major Computer Science with gpa: 3.5')
-        self.assertEqual(str(self.student2), 'Haro, Anna has major Biology with gpa: 1.8')
+        self.assertEqual(str(self.student1), 'Appleseed, John has major: Computer Science with gpa: 3.5')
+        self.assertEqual(str(self.student2), 'Haro, Anna has major: Biology with gpa: 1.8')
 
     def test_object_not_created_error_last_name(self):
         # Test that an exception is raised when the last name is not provided
