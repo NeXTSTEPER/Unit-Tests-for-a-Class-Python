@@ -28,7 +28,7 @@ class Student:
         self.gpa = gpa
 
     def __str__(self):
-        return self.last_name + ", " + self.first_name + " has major " + self.major + " with gpa: " + str(self.gpa)
+        return self.last_name + ", " + self.first_name + " has major: " + self.major + " with gpa: " + str(self.gpa)
 
 
 
