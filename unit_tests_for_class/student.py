@@ -3,7 +3,7 @@ Unit Tests for a Class Assignment
 Author: Alex Cox
 Last date modified: 07/08/2023
 
-Basic Student class with same simple attributes like first and last name, major, and GPA.
+Basic Student class with some simple attributes like first and last name, major, and GPA.
 
 """
 
